@@ -1,0 +1,14 @@
+{
+	"name"	   :"digecon/profile_sync",
+	"type"	   :"library",
+	"description":"Universal profile synchronization tool",
+	"license" : "MIT",
+	"require": {
+		"php": ">=5.4.0"	
+	},
+	"autoload": {
+		"psr-4": {
+			"Digecon\\ProfileSynchronizer\\": "src/"
+		}
+	}
+}
